@@ -1,9 +1,10 @@
 <?php
 
-    $host = "localhost";
+    $host = "monorail.proxy.rlwy.net";
     $user = "root";
-    $clave = "";
-    $bd = "gymtoniclocalhost";
+    $clave = "ccGvzOptrqOIfaFdEeZtpTsBuJYjuRJs";
+    $bd = "railway";
+    $port = "41012";
 
     $conexion = mysqli_connect($host,$user,$clave,$bd);
     if (mysqli_connect_errno()){
